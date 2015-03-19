@@ -46,6 +46,8 @@ table {
   border-spacing: 0;
 }
 /* --------------------------------------------------------*/
+/* Color Pallet: #60748A : grey-blue, #3CC1E8 : blue, #4FFFF2 : aqua, #3CE8A4 : mint-green, #56FF87 : light green*/
+
 html,body,section,aside{ 
 	height:100%; 
 	min-height:100%;
@@ -71,21 +73,22 @@ h3{
 }
 
 img#headshot {
-	width:100%;
-	border-radius: 260;
+	border-style: solid;
+	border-width: .25em;
+	width:98%;
 }
 
 aside{
 	float: left;
 	width: 20%;
-	background: grey;
+	background: #60748A;
 }
 header{
 	float: top;
-	background: purple;
+	background: #3CE8A4;
 }
 section{
-	background:green;
+	background:#3CC1E8;
 }
 button{
 	height: 2em;
@@ -94,7 +97,7 @@ button{
 }
 .aboutHeadings{
 	text-align: left;
-	
+	font-weight: bold;
 }
 			
 
