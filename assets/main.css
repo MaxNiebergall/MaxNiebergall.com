@@ -55,7 +55,6 @@ html,body,section,aside{
 
 body{
 	background-color: grey;
-	width: 80%;
 }
 
 p{
@@ -98,7 +97,6 @@ aside{
 	min-width: 170px;
 }
 
-<<<<<<< HEAD
 aside#rightFiller{
 	float: right;
 	width: 35%;
@@ -109,21 +107,15 @@ aside#rightFiller{
 header{
 	min-height: 12%;
 	min-width: 500px;
-=======
-header{
 	min-height: 12%;
 	width: 70%;
->>>>>>> 90c24fc5d536f554b57a3e3252e84be245b28d85
 	background: #35B939;
 }
 
 section{
 	background:#FFF;
-<<<<<<< HEAD
 	min-width: 500px;
-=======
 	width: 70%;
->>>>>>> 90c24fc5d536f554b57a3e3252e84be245b28d85
 }
 
 button{
