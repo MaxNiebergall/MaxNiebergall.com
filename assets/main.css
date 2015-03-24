@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* --------------------------------------------------------*/
+/* Color Pallet: #60748A : grey-blue, #3CC1E8 : blue, #4FFFF2 : aqua, #3CE8A4 : mint-green, #35B939 : light green*/
+
+html,body{ 
+	height:100%; 
+	min-height:100%;
+	font-size: 1vw;
+}
+
+body{
+	background: grey;
+}
+
+p{
+	padding: 0.25em;
+}
+
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	padding: 0.25em;
+}
+
+h2{
+	font-size: 1.75em;
+	text-align: center;
+	padding: 0.25em;
+}
+
+h3{
+	font-size: 1.25m;
+	text-align: center;
+	padding: 0.25em;
+}
+
+img#headshot {
+	border-style: solid;
+	border-width: .20em;
+	margin-left: 1em;
+	width:13em;
+}
+
+aside{
+	float: left;
+	width: 12em;
+	background: #60748A;
+	height: 50em;
+	min-width: 15em;
+}
+
+header{
+	height: 6em;
+	min-height: 6em;
+	min-width: 50em;
+	width: 70em;
+	background: #35B939;
+}
+
+section{
+	background:#FFF;
+	min-width: 50em;
+	width: 70em;
+	height: 44em;
+}
+
+button{
+	font-size:0.75em;
+	height: 2em;
+	width: 7em;
+	margin: 0.25em;
+}
+
+.aboutHeadings{
+	text-align: left;
+	font-weight: bold;
+}
+
+nav{
+	border-style: solid;
+	border-width: 0.2em;
+}
