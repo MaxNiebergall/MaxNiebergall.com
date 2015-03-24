@@ -52,6 +52,7 @@ html,body{
 	height:100%; 
 	min-height:100%;
 	font-size: 1vw;
+	font-family: Helvetica;
 }
 
 body{
@@ -81,6 +82,7 @@ h3{
 }
 
 img#headshot {
+	border-radius: 7em;
 	border-style: solid;
 	border-width: .20em;
 	margin-left: 1em;
@@ -91,31 +93,37 @@ aside{
 	float: left;
 	width: 12em;
 	background: #60748A;
-	height: 50em;
+	height: 100vh;
 	min-width: 15em;
 }
 
 header{
-	height: 6em;
-	min-height: 6em;
-	min-width: 50em;
-	width: 70em;
-	background: #35B939;
+	height: 2em;
+	width: 15em;
+	background: #90B26B;
 }
 
 section{
 	background:#FFF;
 	min-width: 50em;
-	width: 70em;
-	height: 44em;
+	width: 80em;
+	height: 100vh;
 }
 
-button{
+button.header{
 	font-size:0.75em;
 	height: 2em;
-	width: 7em;
+	width: 4em;
 	margin: 0.25em;
 }
+button#documents{
+	width: 7em;
+}
+button#home{
+margin-left:1.35em;
+
+}
+
 
 .aboutHeadings{
 	text-align: left;
