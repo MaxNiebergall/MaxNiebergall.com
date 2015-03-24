@@ -78,26 +78,25 @@ img#headshot {
 	width:98%;
 }
 
+body{
+	background: grey;
+}
+
 aside{
 	float: left;
 	width: 16%;
 	background: #60748A;
 	height: 112%;
 }
-aside#rightFiller{
-	float: right;
-	width: 35%;
-	background: grey;
-	height: 112%;
-}
+
 header{
 	min-height: 12%;
-	
+	width: 70%;
 	background: #35B939;
 }
 section{
 	background:#FFF;
-
+	width: 70%;
 }
 button{
 	height: 2em;
