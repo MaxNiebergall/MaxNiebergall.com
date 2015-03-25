@@ -46,12 +46,32 @@ table {
   border-spacing: 0;
 }
 /* --------------------------------------------------------*/
-/* Color Pallet: #60748A : grey-blue, #3CC1E8 : blue, #4FFFF2 : aqua, #3CE8A4 : mint-green, #35B939 : light green*/
+
+/* unvisited link */
+a:link {
+    color: #474747;
+}
+
+/* visited link */
+a:visited {
+    color: #474747;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+}
 
 html,body{ 
 	height:100%; 
 	min-height:100%;
 	font-size: 1vw;
+	font-family: Helvetica;
 }
 
 body{
@@ -69,60 +89,88 @@ h1{
 }
 
 h2{
-	font-size: 1.75em;
+	font-size: 2em;
 	text-align: center;
 	padding: 0.25em;
 }
 
 h3{
-	font-size: 1.25em;
+	font-size: 1.5m;
 	text-align: center;
 	padding: 0.25em;
 }
 
 img#headshot {
+	border-radius: 7em;
 	border-style: solid;
-	border-width: .20em;
+	border-width: 0em;
 	margin-left: 1em;
 	width:13em;
 }
 
 aside{
+	font-size: .8em;
 	float: left;
 	width: 12em;
-	background: #60748A;
-	height: 50em;
+	background: #93A644;
+	height: 100vh;
 	min-width: 15em;
 }
 
-header{
-	height: 6em;
-	min-height: 6em;
-	min-width: 50em;
-	width: 70em;
-	background: #35B939;
+depreciated header{
+	height: 1.8em;
+	width: 14.8em;
+	background: #90B26B;
+	border-style: solid;
+	border-width: 0.1em;
+	border-radius: 1.8em;
+	overflow:hidden;
+}
+
+header#main-header{
+	margin-left:1em;
+}
+nav#main-nav{
+	line-height: 1.5em;
+}
+a.nav{
+	display:block;
+	text-decoration: none;
+}
+p#short-bio{
+	padding:0em;
+}
+span#name{
+	font-weight:bold;
+	font-size: 1.2em;
 }
 
 section{
 	background:#FFF;
 	min-width: 50em;
-	width: 70em;
-	height: 44em;
+	width: 80em;
+	height: 100vh;
 }
 
-button{
-	font-size: 0.75em;
-	height: 2em;
-	width: 7em;
-	margin: 0.25em;
+.about-sections{
+	display: block;
+	
 }
-
 .aboutHeadings{
 	text-align: left;
 	font-weight: bold;
 }
 
-nav{
-	border-style: solid;
-	border-width: 0.2em;
+button.header{
+	
+	font-size:0.75em;
+	height: 2em;
+	width: 4em;
+	margin: 0.25em;
+}
+button#documents{
+	width: 7em;
+}
+button#home{
+margin-left:1.35em;
 }
