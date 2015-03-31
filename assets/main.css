@@ -71,7 +71,8 @@ html,body{
 	height:100%; 
 	min-height:100%;
 	font-size: 1vw;
-	font-family: Helvetica;
+	font-family:  arial, sans-serif;
+	color: #444;
 }
 
 body{
@@ -109,6 +110,7 @@ img#headshot {
 }
 
 aside{
+	color: #000;
 	font-size: .8em;
 	float: left;
 	width: 12em;
@@ -139,6 +141,7 @@ a.nav{
 }
 p#short-bio{
 	padding:0em;
+	padding-right: 0.3em;
 }
 span#name{
 	font-weight:bold;
@@ -172,5 +175,17 @@ button#documents{
 	width: 7em;
 }
 button#home{
-margin-left:1.35em;
+	margin-left:1.35em;
+}	
+
+div#contactInfo{
+	float: left;
+	text-align: left;
+
+}
+div#contactMe{
+
+}
+#email{
+	padding-left:2em;
 }
