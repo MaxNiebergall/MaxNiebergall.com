@@ -50,21 +50,27 @@ table {
 /* unvisited link */
 a:link {
     color: #474747;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: #474747;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
+	text-decoration: underline;
     color: #000;
 }
 
 /* selected link */
 a:active {
     color: #000;
+}
+a{
+	display: block;
 }
 
 html,body{ 
@@ -96,7 +102,7 @@ h2{
 }
 
 h3{
-	font-size: 1.5m;
+	font-size: 1.5em;
 	text-align: center;
 	padding: 0.25em;
 }
@@ -179,13 +185,38 @@ button#home{
 }	
 
 div#contactInfo{
+	padding:0;
 	float: left;
 	text-align: left;
 
 }
-div#contactMe{
-
+h2#contactMe{
+	text-align:left;
 }
-#email{
+.contact{
 	padding-left:2em;
 }
+.documentsHeader{
+	float:left;
+	padding-left:12em;
+}
+.projectsHeader{
+	float:right;
+	padding-right: 14em;
+}
+.documents{
+	float:right;
+	padding-bottom:0.2em;
+}
+.projects{
+	float:left;
+	padding-bottom:0.2em;
+}
+#docTitle{
+	padding-right:0;
+}
+#projTitle{
+	padding-left:0;
+}
+
+
